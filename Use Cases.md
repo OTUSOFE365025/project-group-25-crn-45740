@@ -16,3 +16,4 @@
 | UC-12: Analytics Reporting                     | Administrators and lecturers can view usage analytics, performance, indicators, and class summaries. (RA4)(RL3)                                                                                                                                                                                                                                                                                                                   |
 
 ## 2.2 UML Use Case Diagram
+![UML Use Case Diagram](.github/AIDAP System.drawio.png)
