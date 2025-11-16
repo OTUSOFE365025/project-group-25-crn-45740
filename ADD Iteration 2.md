@@ -90,6 +90,7 @@ Output: structured AI response
 7. → User Service for logging  
 ---
 # 5.0 Deployment View
+![Deployment Diagram Iteration 2](.github/Deployment_Iteration2.drawio.png)
 ## Deployment Refinements
 - Multiple replicas of the AI Engine  
 - Dedicated Redis cache cluster  
