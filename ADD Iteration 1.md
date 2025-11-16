@@ -69,6 +69,7 @@ The following use cases drive the high-level architecture:
 10. **Database Layer**
 ---
 # 4.0 Deployment View
+![Deployment Diagram Iteration 1](.github/Deployment_Iteration1.drawio.png)
 ## 4.1 Deployment Nodes
 - **Client Devices:** Web, Mobile, Voice
 - **API Gateway:** Cloud load-balanced entry layer
