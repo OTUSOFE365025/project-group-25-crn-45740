@@ -6,16 +6,25 @@ SOFE 3650U – Group 25
 - **Mohamed Tawfik Omar**  
 - **Nithusan Kandasamy**
 
-
-This repository contains the Architectural Design Documentation (ADD) for **AIDAP** – the AI-Driven Academic Planning assistant.  
-The project was completed following the *Attribute-Driven Design (ADD) Method*.
+This repository contains the Architectural Design Documentation (ADD) for **AIDAP** the AI-Driven Academic Planning assistant.
 ---
 # Project Overview
 AIDAP is an intelligent academic planning assistant that enables students to interact with university systems using natural language. The system integrates with the LMS, registration system, calendar, and email services to provide schedules, deadlines, reminders, and personalized academic support.
 
 # Repository Structure
-[]
-
+```
+├── AIDAP System.drawio.png
+├── Deployment_Iteration1.drawio.png
+├── Deployment_Iteration2.drawio.png
+├── ADD Iteration 1.md
+├── ADD Iteration 2.md
+├── Business Case.md
+├── Concerns.md
+├── Constraints.md
+├── Quality Attributes.md
+├── Use Cases.md
+└── README.md
+```
 
 ## **File Descriptions**
 - **ADD Iteration 1.md** – High-level architecture, major components, and initial deployment diagram  
@@ -42,3 +51,4 @@ AIDAP is an intelligent academic planning assistant that enables students to int
 - Domain-specific models  
 - AI processing pipeline  
 - Refined deployment diagram (replicas, cache, event bus)  
+---
