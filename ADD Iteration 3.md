@@ -1,0 +1,28 @@
+Step 1: Review Inputs
+
+CRN-1	Establish high level structure for AI assistant platform
+CRN-2	Select and encapsulate NLP/AI model frameworks
+CRN-3	Ensure secure data exchange between systems
+CRN-4	Design for observability and performance monitoring
+CRN-5	Manage versioning and upgrades with zero downtime
+CRN-6	Guarantee extensibility for new integrations and languages
+CRN-7	Maintain usability and accessibility across interfaces
+CON-1	Must use institutional SSO for secure authentication
+CON-2	Must comply with privacy and data retention policies
+CON-3	Must integrate using REST or GraphQL APIs
+CON-4	Must support web, mobile, and voice devices
+CON-5	Must be deployable on cloud with auto scaling
+CON-6	Average query time ≤2s; availability ≥99.5%
+CON-7	Support up to 5000 concurrent users
+CON-8	Allow offline caching for limited connectivity
+
+
+Step 2: Establish Goal By Selecting Drivers
+Addressing the QA-7 quality attribute scenario: A new academic database is added via GraphQL without changing the core system.
+	
+Step 3: Choose one or more elements of the system to refine
+Database Cluster
+Add an adapter pattern using GraphQL to allow for interoperability and the ability to implement new databases without changing the core system
+Integration Service 
+Redefine the service to support a hybrid interface pattern, partially REST and partially GraphQL
+
