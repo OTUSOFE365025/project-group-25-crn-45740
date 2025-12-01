@@ -19,7 +19,10 @@
 
 ## Step 5: Instantiate architectural elements, responsibilities, and define interfaces
 
-### Design Decisions and Location vs. Rationale
+## Step 6: Sketch Views
+![Sequence Diagram1](https://github.com/user-attachments/assets/29e813ac-865f-4738-816b-572b1607eff6)
+
+## Step 7:Design Decisions and Location vs. Rationale
 
 | Design Decisions and Location | Rationale and Assumptions |
 | :--- | :--- |
