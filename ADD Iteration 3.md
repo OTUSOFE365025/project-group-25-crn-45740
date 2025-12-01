@@ -6,9 +6,6 @@
 * **Secondary Driver:** Constraint 
   * Scenario: The adapter must run within the existing Application Server Cluster without requiring new hardware.
 
-## Step 2: Establish Goal By Selecting Drivers
-* Addressing the QA-7 quality attribute scenario: A new academic database is added via GraphQL without changing the core system.
-
 ## Step 3: Choose one or more elements of the system to refine
 * **Database Cluster**
   * Add an adapter pattern using GraphQL to allow for interoperability and the ability to implement new databases without changing the core system
