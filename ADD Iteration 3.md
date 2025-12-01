@@ -39,6 +39,14 @@ The adapter pattern element will live in the applications server cluster as it i
 **Rationale and Assumptions**
 Routes the data request to the appropriate adapter either REST or GraphQL. This component serves as an entry point so the system doesn't need to know which protocol is being used.
 
+### 3. External Configuration Manager
+**Rationale and Assumptions**
+This component loads database connection strings and schemas from external files. This allows the system to adapt to new databases without recompiling the source code.
+
+### 4. Security Filter Chain
+**Rationale and Assumptions**
+Reuse the existing authentication filters by applying them to the GraphQL endpoint. This ensures the new data path is just as secure as the REST path without rewriting security logic.
+
 ## Step 6: Sketch Views
 ![Sequence Diagram1](https://github.com/user-attachments/assets/29e813ac-865f-4738-816b-572b1607eff6)
 
