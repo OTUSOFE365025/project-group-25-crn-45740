@@ -48,8 +48,10 @@ This component loads database connection strings and schemas from external files
 Reuse the existing authentication filters by applying them to the GraphQL endpoint. This ensures the new data path is just as secure as the REST path without rewriting security logic.
 
 ## Step 6: Sketch Views
+### Sequence Diagram
 ![Sequence Diagram1](https://github.com/user-attachments/assets/29e813ac-865f-4738-816b-572b1607eff6)
-![Deployment Diagram]<img width="1781" height="821" alt="Deployment_Iteration2 drawio" src="https://github.com/user-attachments/assets/0198cb33-f6ca-40e3-8bae-d5186dc793f8" />
+### Deployment Diagram
+<img width="1781" height="821" alt="Deployment_Iteration2 drawio" src="https://github.com/user-attachments/assets/0198cb33-f6ca-40e3-8bae-d5186dc793f8" />
 
 
 ## Step 7:Design Decisions and Location vs. Rationale
