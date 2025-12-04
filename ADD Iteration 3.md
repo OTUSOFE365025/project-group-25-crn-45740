@@ -54,9 +54,11 @@ Reuse the existing authentication filters by applying them to the GraphQL endpoi
 <img width="1781" height="1082" alt="Iteration 3 drawio" src="https://github.com/user-attachments/assets/6315a016-0376-43b3-8f8b-289a7b3099fc" />
 
 
-## Step 7:Design Decisions and Location vs. Rationale
+## Step 7: Design Decisions and Location vs. Rationale
 
 | Design Decisions and Location | Rationale and Assumptions |
 | :--- | :--- |
-| **Implement the adapter pattern in the applications server cluster** | The adapter pattern element will live in the applications server cluster as it is part of the application logic, and it wraps the GraphQL APIs on the application side. |
-| **Integration router** | Routes the data request to the appropriate adapter either REST or GraphQL. This component serves as an entry point so the system doesn't need to know which protocol is being used |
+| `Adapter Pattern` | **(QA-7 Interoperability)** Wraps the GraphQL APIs so the main application can communicate with the new database easily. |
+| `Integration Router` | **(QA-7 Interoperability)** Directs data requests to the correct adapter (REST or GraphQL) so the core system doesn't need to worry about the protocol. |
+| `External Configuration Manager` | **(QA-6 Modifiability)** Loads settings from external files, allowing updates to schemas or keys without needing to change the code. |
+| `Security Filter Chain` | **(QA-2 Security)** Applies existing security checks to the new GraphQL endpoint to ensure all requests are properly authenticated. |
