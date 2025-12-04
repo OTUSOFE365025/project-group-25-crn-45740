@@ -52,6 +52,8 @@ Reuse the existing authentication filters by applying them to the GraphQL endpoi
 ![Sequence Diagram1](https://github.com/user-attachments/assets/29e813ac-865f-4738-816b-572b1607eff6)
 ### Deployment Diagram
 <img width="1781" height="1082" alt="Iteration 3 drawio" src="https://github.com/user-attachments/assets/6315a016-0376-43b3-8f8b-289a7b3099fc" />
+### Utility Tree
+<img width="651" height="291" alt="Utility Tree drawio" src="https://github.com/user-attachments/assets/74254f5c-7e7f-4191-a9d7-d8cf7dc05dfc" />
 
 
 ## Step 7: Design Decisions and Location vs. Rationale
